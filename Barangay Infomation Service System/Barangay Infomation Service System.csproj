@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{85B312AB-5A0A-4A45-B290-C79218796963}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Barangay_Infomation_Service_System</RootNamespace>
+    <AssemblyName>Barangay Infomation Service System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About Us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About Us.Designer.cs">
+      <DependentUpon>About Us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Home.Designer.cs">
+      <DependentUpon>Admin Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Interface.Designer.cs">
+      <DependentUpon>Admin Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Archive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Archive.Designer.cs">
+      <DependentUpon>Archive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Barangay ID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barangay ID.Designer.cs">
+      <DependentUpon>Barangay ID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarangayID Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarangayID Form.Designer.cs">
+      <DependentUpon>BarangayID Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change Password.Designer.cs">
+      <DependentUpon>Change Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clearance Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clearance Form.Designer.cs">
+      <DependentUpon>Clearance Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clearance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clearance.Designer.cs">
+      <DependentUpon>Clearance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact Us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact Us.Designer.cs">
+      <DependentUpon>Contact Us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Document Request Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Document Request Management.Designer.cs">
+      <DependentUpon>Document Request Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Document Request.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Document Request.Designer.cs">
+      <DependentUpon>Document Request.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Firsttime Jobseeker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firsttime Jobseeker.Designer.cs">
+      <DependentUpon>Firsttime Jobseeker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FTJS Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTJS Form.Designer.cs">
+      <DependentUpon>FTJS Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indigency Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indigency Form.Designer.cs">
+      <DependentUpon>Indigency Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indigency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indigency.Designer.cs">
+      <DependentUpon>Indigency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile Settings.Designer.cs">
+      <DependentUpon>Profile Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reject Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reject Form.Designer.cs">
+      <DependentUpon>Reject Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Residency Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Residency Form.Designer.cs">
+      <DependentUpon>Residency Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Residency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Residency.Designer.cs">
+      <DependentUpon>Residency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Home.Designer.cs">
+      <DependentUpon>User Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Infomation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Infomation.Designer.cs">
+      <DependentUpon>User Infomation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Interface.Designer.cs">
+      <DependentUpon>User Interface.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About Us.resx">
+      <DependentUpon>About Us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Home.resx">
+      <DependentUpon>Admin Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Interface.resx">
+      <DependentUpon>Admin Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Archive.resx">
+      <DependentUpon>Archive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barangay ID.resx">
+      <DependentUpon>Barangay ID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarangayID Form.resx">
+      <DependentUpon>BarangayID Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change Password.resx">
+      <DependentUpon>Change Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clearance Form.resx">
+      <DependentUpon>Clearance Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clearance.resx">
+      <DependentUpon>Clearance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact Us.resx">
+      <DependentUpon>Contact Us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Document Request Management.resx">
+      <DependentUpon>Document Request Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Document Request.resx">
+      <DependentUpon>Document Request.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firsttime Jobseeker.resx">
+      <DependentUpon>Firsttime Jobseeker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTJS Form.resx">
+      <DependentUpon>FTJS Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indigency Form.resx">
+      <DependentUpon>Indigency Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indigency.resx">
+      <DependentUpon>Indigency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile Settings.resx">
+      <DependentUpon>Profile Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reject Form.resx">
+      <DependentUpon>Reject Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Residency Form.resx">
+      <DependentUpon>Residency Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Residency.resx">
+      <DependentUpon>Residency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Home.resx">
+      <DependentUpon>User Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Infomation.resx">
+      <DependentUpon>User Infomation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Interface.resx">
+      <DependentUpon>User Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
